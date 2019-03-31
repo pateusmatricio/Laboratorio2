@@ -1,3 +1,10 @@
+/**
+ * @file jogo.cpp
+ * @brief Implementação de Jogo.
+ * @author Mateus Patricio
+ * @date 31/03/2019
+ */
+
 #include <sstream>
 #include <iostream>
 #include <string>
@@ -10,6 +17,7 @@
 
 using namespace std;
 
+/// @detail Função que faz a lógica do jogo, recebendo como parâmetro a pontuação máxima dos jogadores e um char com a escolha de jogar de novo ou não, que começa como 'S' 
 void jogo(int &pontuacaoMaxima, char opc){
 	int i = 42;
 	string aux;

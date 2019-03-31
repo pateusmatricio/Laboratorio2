@@ -1,3 +1,9 @@
+/**
+ * @file dado.h
+ * @brief Classe que representa um dado, gerando valores aleatórios.
+ * @author Mateus Patricio
+ */
+
 #ifndef DADO_H
 #define DADO_H
 
